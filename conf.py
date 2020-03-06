@@ -114,6 +114,11 @@ html_favicon = '_static/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_css_files = [
+      'nethesis.css',
+      'font-awesome.min.css'
+]
+
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
 
@@ -184,7 +189,7 @@ if os.path.exists('rst_prolog'):
 # Define context default values for HTML templates
 #
 context = {
-    'alt_languages': 'it,en,es',
+    'alt_languages': 'it,en',
     'alt_versions': 'dev',
     'current_version': 'def',
     'user_analytics_code': '',
